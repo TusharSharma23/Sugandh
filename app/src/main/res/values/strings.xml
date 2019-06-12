@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SugandhApp</string>
+
+    <string name="record_video">Record Video</string>
+
+    <string name="record_audio">Record Audio</string>
+
+    <string name="click_picture">Click Picture</string>
+
+    <string name="show_recordings">show my recordings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

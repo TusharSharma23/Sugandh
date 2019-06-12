@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/appBackground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="@dimen/padding_text">
+
+        <ImageButton
+            android:id="@+id/record_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/appBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_videocam_white_48dp"
+            android:padding="@dimen/image_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/record_video"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="@dimen/padding_text">
+
+        <ImageButton
+            android:id="@+id/record_audio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/appBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_keyboard_voice_white_48dp"
+            android:padding="@dimen/image_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/record_audio"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="@dimen/padding_text">
+
+        <ImageButton
+            android:id="@+id/click_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/appBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_camera_alt_white_48dp"
+            android:padding="@dimen/image_padding"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:text="@string/click_picture"
+            android:textSize="@dimen/text_size"/>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/show_recordings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/buttonBack"
+        android:textAllCaps="true"
+        android:text="@string/show_recordings"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text_size"/>
+
+</LinearLayout>

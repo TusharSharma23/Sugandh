@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragments.AudioFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press mic to start/stop recording."
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"/>
+
+    <ImageButton
+        android:id="@+id/start_recording"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="fitCenter"
+        android:background="@drawable/round_button"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

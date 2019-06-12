@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Fragments.CameraFragment">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/capture"
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="@dimen/image_padding"
+        android:src="@android:drawable/ic_menu_camera"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/flip_camera"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/image_padding"
+        android:src="@android:drawable/ic_menu_always_landscape_portrait"
+        android:scaleType="fitCenter"/>
+
+</FrameLayout>
